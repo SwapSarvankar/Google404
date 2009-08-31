@@ -1,0 +1,17 @@
+<?php
+// $Id$
+
+/**
+ * Implementation of hook_enable().
+ */
+function google404_enable() {
+  variable_set('site_404', 'google404');
+}
+
+/**
+ * Implementation of hook_disable().
+ */
+function google404_disable() {
+  variable_del('site_404');
+}
+

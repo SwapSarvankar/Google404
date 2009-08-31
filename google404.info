@@ -1,0 +1,5 @@
+; $Id$
+name = Google 404
+description = Uses Google's Webmaster Tools 404 widget to enhance your 404 pages. It provides suggestions for where the user might have been wanting to go as well as a Google search box for your site. 
+core = 6.x
+
