@@ -1,4 +1,8 @@
-name = Google 404
-description = Uses Google's Webmaster Tools 404 widget to enhance your 404 pages. It provides suggestions for where the user might have been wanting to go as well as a Google search box for your site. 
-core = 6.x
-
+name = "Google 404"
+description = "Uses <a href='https://www.google.com/webmasters/tools' title='Google Web Master Tool'>Google's Webmaster Tools</a> 404 widget to enhance your 404 pages. It provides suggestions for where the user might have been wanting to go as well as a Google search box for your site."
+core = 7.x
+files[] = google404.install
+files[] = google404.module
+files[] = google404.admin.inc
+configure = admin/settings/google404
+package = SEO
